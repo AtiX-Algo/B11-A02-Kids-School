@@ -61,3 +61,139 @@ body {
 }
 
 
+/* banner-sectin */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 35 0 200px; */
+}
+
+.banner-content {
+    width: 580px;
+    /* padding: 100px; */
+
+}
+
+
+.banner-title {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.banner-desciption {
+    font-size: 24px;
+
+}
+
+.banner-picture {
+    width: 575px;
+}
+
+.btn-enroll {
+    background-color: #111111;
+    color: white;
+    padding: 10px 60.5px;
+    height: 50px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.curriculum { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(assets/bg.png);
+}
+
+.curriculum-heading {
+    font-weight: bold;
+    font-size: 46px;
+    margin: 10px;
+}
+
+.curriculum-cards {
+    display: flex;
+    
+
+    gap: 32px;
+    margin: 0 140px 0;
+}
+
+.curriculum-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18.86px;
+    /* border: 0.94px solid rgb(222, 245, 255); */
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 367.8px;
+    height: 476.78px;
+    gap: 33.95px;
+}
+
+.c-read{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.orange-gradient {
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.purple-gradient {
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+
+.arrow {
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    background-color: #FEA301;
+    border-radius: 50%;
+    /* border: solid 2px; */
+    margin: 10px ;
+    position: relative;
+    /* box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.4); */
+    cursor: pointer;
+}
+
+.arrow::after {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+
+.arrow.left::after {
+    transform: rotate(-135deg);
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    
+}
