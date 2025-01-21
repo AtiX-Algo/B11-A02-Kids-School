@@ -2,10 +2,6 @@ body {
     font-family: 'Fira Sans', sans-serif;
 
 }
-body {
-    margin-left: 141px;
-    margin-right: 141px;
-}
 
 
 .orange {
@@ -30,6 +26,11 @@ body {
 
 
 /* header section */
+.header {
+    margin-left: 141px;
+    margin-right: 141px;
+}
+
 .nav-menu {
     text-decoration: none;
     font-size: 20px;
@@ -101,12 +102,13 @@ body {
     cursor: pointer;
 }
 
-.curriculum { 
+.curriculum {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     background-image: url(assets/bg.png);
+
 }
 
 .curriculum-heading {
@@ -117,8 +119,6 @@ body {
 
 .curriculum-cards {
     display: flex;
-    
-
     gap: 32px;
     margin: 0 140px 0;
 }
@@ -129,7 +129,6 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 18.86px;
-    /* border: 0.94px solid rgb(222, 245, 255); */
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     padding: 20px;
@@ -140,18 +139,18 @@ body {
     gap: 33.95px;
 }
 
-.c-read{
+.c-read {
     text-decoration: none;
     font-weight: bold;
 }
 
 
 .orange-gradient {
-    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 .purple-gradient {
-    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
 }
 
 
@@ -162,11 +161,11 @@ body {
     height: 60px;
     background-color: #FEA301;
     border-radius: 50%;
-    /* border: solid 2px; */
-    margin: 10px ;
+    margin: 10px;
     position: relative;
-    /* box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.4); */
     cursor: pointer;
+    margin-bottom: 80px;
+    margin-top: 60px;
 }
 
 .arrow::after {
@@ -195,5 +194,110 @@ body {
     margin-top: 50px;
     display: flex;
     align-items: center;
-    
+
+}
+
+/* story section */
+
+
+.stories {
+    background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+
+
+.stories-heading {
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+.container-story>div {
+    flex: 1;
+}
+
+.container-story {
+    display: flex;
+    gap: 19px;
+    margin-bottom: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.square {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.story-card {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+}
+
+.story-card img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.story-card-date {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    background-color: #05D4DF;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    width: 150px;
+}
+
+.greenish-bg {
+    background-color: #95B226;
+}
+
+.purple-bg {
+    background-color: #5D58F0;
+}
+
+.story-card-title {
+    font-size: 24px;
+}
+
+.story-card-description {
+    font-size: 15.34px;
+}
+
+.story-card-content {
+    padding: 15px;
+    align-items: center;
+
+}
+
+
+.view-all-button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+    margin: 0px auto;
 }
