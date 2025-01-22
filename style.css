@@ -454,20 +454,12 @@ marquee {
 
     .banner img.banner-picture {
         order: -1;
-        /* Ensure the image is shown first */
+       
         width: 100%;
         height: auto;
     }
 
-    /* .banner-title {
-        font-size: 1.5em;
-        margin-top: 10px;
-    } */
-
-    /* .banner-description {
-        font-size: 1em;
-        margin-top: 10px;
-    } */
+   
 
     .btn-enroll {
         margin-top: 10px;
@@ -480,10 +472,7 @@ marquee {
     flex-direction: column;
     margin-left: 16px;
         margin-right: 16px;
-    /* align-items: center; */
-    /* text-align: center; */
-    /* background-image: url(assets/bg.png); */
-
+   
 }
 
 .curriculum-heading {
@@ -500,10 +489,7 @@ marquee {
 }
 
 .curriculum-card {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
+   
     border-radius: 18.86px;
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
