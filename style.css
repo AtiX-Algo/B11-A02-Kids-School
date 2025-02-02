@@ -69,6 +69,7 @@ marquee {
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    margin: 0 auto;
 }
 
 .btn {
@@ -92,7 +93,7 @@ marquee {
 }
 
 .banner-content {
-    width: 580px;
+    width: auto;
     /* padding: 100px; */
 
 }
@@ -155,7 +156,7 @@ marquee {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    width: 367.8px;
+    width: 300px;
     height: 476.78px;
     gap: 33.95px;
 }
@@ -223,6 +224,7 @@ marquee {
 
 .stories {
     background: url(assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    padding-bottom: 10px;
 }
 
 
@@ -322,7 +324,10 @@ marquee {
     align-items: center;
     width: 197px;
     height: 50px;
-    margin: 0px auto;
+    /* margin: 0px auto; */
+    margin-bottom: 10px;
+    margin-left: 45%;
+
 }
 
 
@@ -388,12 +393,21 @@ marquee {
 
 /* For Phone Screen  */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 674px) {
+    
+
+    body {
+        
+        margin: 0;
+    
+    }
+    
+    
+    
     .header {
         width: 100%;
         margin: 0;
-        margin-left: 16px;
-        margin-right: 16px;
+        
         
     }
 
@@ -526,20 +540,23 @@ marquee {
 }
 
 
-.stories{
+/* .stories{
     margin-left: 16px;
     margin-right: 16px;
+} */
+
+.view-all-button{
+    margin-left: 24%;
 }
 
 
-/* Ensure all images resize properly */
 .footer {
     color: white;
     background-color: #00aaff;
     width: 100%;
     padding:200px 0;
-    margin-left: 16px;
-    margin-right: 16px;
+    /* margin-left: 16px; */
+    /* margin-right: 16px; */
 }
 
 .footer-logo {
